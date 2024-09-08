@@ -1,3 +1,7 @@
-#include
-char name[] = "Valerie";
-printf(name);
+#include <stdio.h>
+
+int main(void){
+    char name[] = "Valerie";
+    printf("Hello ", name);
+    return 0;
+}
