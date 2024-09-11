@@ -17,8 +17,8 @@ int main(void){
     //equationSeven 
     printf("\n %f", (3*pow(5, 2)/15)-(5-pow(2, 2)));
     //equationEight 
-    printf("\n %d", (pow(1, 4)*pow(2, 2)+pow(3, 3))-pow(2, 5)/4);
+    printf("\n %d", (pow(1, 4)*pow(2, 2)+pow(3, 3))-pow(2, 5)/4);//fix
     //equationNine 
-    printf("\n %d",7-24/8*4+6);
+    printf("\n %d", pow((22/2-2*5),2)+pow((4-6/6), 2));
     return 0;
 }
