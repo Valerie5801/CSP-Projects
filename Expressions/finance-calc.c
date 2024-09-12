@@ -2,6 +2,7 @@
 
 int main(void){
     float income, rent, utilites, groceries, transportation, expenses, savings, total;
+    float pRent, pUtilites, pGroceries, pTransportation, pExpenses;
     printf("This is going to calculate your budget for this month.\n");
     //income
     printf("How much do you make a month?:\n");
@@ -22,6 +23,11 @@ int main(void){
     expenses = rent + utilites + groceries + transportation;
     savings = income*.2;
     total = income - expenses - savings;
+    pRent = rent/income; 
+    pUtilites = utilites/income; 
+    pGroceries = groceries/income; 
+    pTransportation = transportation/income; 
+    pExpenses = expenses/income;
 
     printf("Your income is: $ %2.f \n", income);
     printf("Your expenses are: $ %.2f \n", expenses);
