@@ -33,9 +33,9 @@ int main(void){
     printf("Your expenses are: $ %.2f \n,", expenses);
     printf("Your savings are: $ %.2f \n,", savings);
     printf("Your total left to spend is: $ %.2f \n,", total);
-    printf("Your rent is %.2f", pRent, "of your income");
-    printf("Your utilites is %.2f", pUtilites, "of your income");
-    printf("Your groceries is %.2f", pGroceries, "of your income");
-    printf("Your transportation is %.2f", pTransportation, "of your income");
+    printf("\n Your rent is %.2f", pRent);
+    printf("\n Your utilites is %.2f", pUtilites);
+    printf("\n Your groceries is %.2f", pGroceries);
+    printf("\n Your transportation is %.2f", pTransportation);
     return 0;
 }
