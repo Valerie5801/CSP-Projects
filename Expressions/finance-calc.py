@@ -1,5 +1,0 @@
-monthIncome = input (int) ("What is your monthly income?: ")
-rentCost = input((int) "What is your monthly rent?: ")
-utilitesCost = input((int) "How much do you usually spend on utilites per month? :")
-groceriesCost = input((int) "How much do you usually spend on groceries per month?: ")
-transportCost = input((int) "How much do you usually spend on transport per month? (vehicles, public transport): ")
