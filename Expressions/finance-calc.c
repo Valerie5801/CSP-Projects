@@ -20,18 +20,18 @@ int main(void){
     printf("How much do spend on transportation?:\n");
     scanf("%f", &transportation);
     //calculations
-    expenses = rent + utilites + groceries + transportation;
-    savings = income*.2;
-    total = income - expenses - savings;
-    pRent = rent/income; 
-    pUtilites = utilites/income; 
-    pGroceries = groceries/income; 
-    pTransportation = transportation/income; 
-    pExpenses = expenses/income;
+    //expenses = rent + utilites + groceries + transportation;
+    //savings = income*.2;
+    //total = income - expenses - savings;
+    //pRent = rent/income; 
+    //pUtilites = utilites/income; 
+    //pGroceries = groceries/income; 
+   // pTransportation = transportation/income; 
+   // pExpenses = expenses/income;
 
-    printf("Your income is: $ %2.f \n", income);
-    printf("Your expenses are: $ %.2f \n", expenses);
-    printf("Your savings are: $ %.2f \n", savings);
-    printf("Your total left to spend is: $ %.2f \n", total);
+    //printf("Your income is: $ %2.f \n", income);
+    //("Your expenses are: $ %.2f \n", expenses);
+    //printf("Your savings are: $ %.2f \n", savings);
+    //printf("Your total left to spend is: $ %.2f \n", total);
     return 0;
 }
