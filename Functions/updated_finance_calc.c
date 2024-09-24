@@ -3,7 +3,7 @@
 
 void input(int typeOfMoney){
     printf("How much is your %s?", typeOfMoney);
-    scanf("%f", )
+    scanf("%f", "oiwejf");
 }
 
 void percent(char type[], int amount){
