@@ -1,7 +1,8 @@
 print("This calculator will calculate your budget for the month.")
 #getting user inputs
-def iput(tipe, var):
-    float(input("What is your {tipe}?"))
+
+def iput(type, var):
+    print(f"Your {type} is ${var}.")
 
 income = float(input("What is your income?: "))
 rent = float(input("What is your monthly rent?: "))
@@ -19,10 +20,10 @@ def percent(type, amount):
     print(f"Your {type} is {per}% of your income.")
 
 #prints
-print("Your income is: $", income);
-print("Your expenses are: $", expenses);
-print("Your savings are: $", savings);
-print("Your total left to spend is: $", total);
+iput("income", income)
+iput("expenses", expenses)
+iput("savings", savings)
+iput("total left to spend", total)
 percent("rent", rent)
 percent("utilites", utilites)
 percent("groceries", groceries)
