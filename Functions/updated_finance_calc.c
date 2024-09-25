@@ -1,37 +1,29 @@
 #include <stdio.h>
-    float income, rent, utilites, groceries, transportation, expenses, savings, total;
+float income, rent, utilites, groceries, trans, expenses, savings, total;
 
-void input(int typeOfMoney){
-    printf("How much is your %s?", typeOfMoney);
-    scanf("%f", "oiwejf");
+float input(char type[], float var){
+    printf("How much is your %s?: \n", type);
+    scanf("%f", &var);
+
+    return var;
 }
 
 void percent(char type[], int amount){
-    int per = amount/ income*100;
-
-    printf("\nThe percent of your income for %s is %d%%.", type, per);
+    int per = amount/income*100;
+    printf("\nYour %s cost is %d%%", type, per);
+    printf(" of your income.");
 }
 
 int main(void){
-    float pRent, pUtilites, pGroceries, pTransportation, pExpenses;
     printf("This is going to calculate your budget for this month.\n");
-    //income
-    printf("How much do you make a month?:\n");
-    scanf("%f", &income);
-    //rent
-    printf("How much is your rent?:\n");
-    scanf("%f", &rent);
-    //utilites
-    printf("How much do you spend on utilites?:\n");
-    scanf("%f", &utilites);
-    //groceries
-    printf("How much do you spend on groceries?:\n");
-    scanf("%f", &groceries);
-    //transportation
-    printf("How much do spend on transportation?:\n");
-    scanf("%f", &transportation);
+    income = input("income", income);
+    rent = input("rent", rent);
+    utilites = input("utilites", utilites);
+    groceries = input("groceries", groceries);
+    trans= input("transportation", trans);
+
     //calculations
-    expenses = rent + utilites + groceries + transportation;
+    expenses = rent + utilites + groceries + trans;
     savings = income*.2;
     total = income - expenses - savings;
 
@@ -39,9 +31,13 @@ int main(void){
     printf("Your expenses are: $ %.2f \n", expenses);
     printf("Your savings are: $ %.2f \n", savings);
     printf("Your total left to spend is: $ %.2f", total);
+
     percent("rent", rent);
     percent("utilites", utilites);
     percent("groceries", groceries);
-    percent("transportation", transportation);
+    percent("transportation", trans);
+    percent("savings", savings);
+    percent("expenses", expenses);
+
     return 0;
 }
