@@ -1,5 +1,7 @@
 print("This calculator will calculate your budget for the month.")
 #getting user inputs
+def iput(tipe, var):
+    float(input("What is your {tipe}?"))
 
 income = float(input("What is your income?: "))
 rent = float(input("What is your monthly rent?: "))
