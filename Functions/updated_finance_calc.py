@@ -6,6 +6,10 @@ def iput(type):
     #print(f"Your {type} is $.")
     return f"{var}"
 
+def percent(type, amount):
+    per = amount/income*100
+    print(f"Your {type} is {per}% of your income.")
+
 income = float(iput("income"))
 rent = float(iput("rent"))
 utilites = float(iput("utilites"))
@@ -14,19 +18,14 @@ transportation = float(iput("transportation"))
 
 #calculations
 expenses = rent + utilites + groceries + transportation;
-print(expenses)
 savings = income * 0.2;
 total = income - expenses - savings;
 
-def percent(type, amount):
-    per = amount/income*100
-    print(f"Your {type} is {per}% of your income.")
-
 #prints
 print("Your income is $", income)
-print("Your utilites is $", utilites)
-print("Your groceries is $", groceries)
-print("Your transportation is $", transportation)
+print("Your expenses is $", expenses)
+print("Your savings is $", savings)
+print("Your total is $", total)
 percent("rent", rent)
 percent("utilites", utilites)
 percent("groceries", groceries)
