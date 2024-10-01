@@ -9,4 +9,4 @@ elif age >= 15:
 elif age >= 5:
     print("You can go to school.")
 else:
-    print("You can't go to school.")
+    print("You must stay inside.")
