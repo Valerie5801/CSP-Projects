@@ -1,4 +1,4 @@
-time = 1700
+time = int(input("What time is it?(military time no colon): "))
 
 if time >= 500 and time < 1100:
     print("Good Morning")
