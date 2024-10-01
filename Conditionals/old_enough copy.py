@@ -1,13 +1,13 @@
-age = float(input("How old are you?: "))
+age = int(input("How old are you?: "))
 
 if age>= 13700000000:
     print("Are you the universe?")
 elif age >= 300:
     print("You must be history! Not in history books though.")
-elif age >= 150:
+elif age >= 120:
     print("You must be a ghost.")
 elif age >= 70:
-    print("Go to a retirement home")
+    print("Retire.")
 elif age >= 50:
     print("Time to start thinking about your financial plan once you retire.")
 elif age >= 18:
