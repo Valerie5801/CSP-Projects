@@ -13,7 +13,7 @@ int main(void){
     printf("%d\n", hour);
 
     if (hour <= 12){
-        printf("Good mroning -n-\n");
+        printf("mroning... -n-\n");
     }else if (hour <= 18){
         printf("Good afternoon OwO\n");
     }else if (hour <= 20){

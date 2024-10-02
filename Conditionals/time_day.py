@@ -3,7 +3,7 @@ import datetime
 now = datetime.datetime.now().hour
 
 if now <= 12:
-    print("Good mroning -n-")
+    print("mroning... -n-")
 elif now <= 18:
     print("Good afternoon OwO")
 elif now <= 20:
