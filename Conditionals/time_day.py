@@ -7,8 +7,8 @@ if now <= 12:
 elif now <= 18:
     print("Good afternoon OwO")
 elif now <= 20:
-    print("GOOD EVENING YAA- >:)")
+    print("GoOd EvEnInG YAA- >:)")
 else:
-    print("GoOd NiGhT ovO")
+    print("GO TO SLEEP o^O")
 
 print(now)
