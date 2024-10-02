@@ -17,9 +17,9 @@ int main(void){
     }else if (hour <= 18){
         printf("Good afternoon OwO\n");
     }else if (hour <= 20){
-        printf("GoOd eVeNiNg ovo\n");
+        printf("GOOD EVENING YAA- >:)\n");
     }else{
-        printf("GOOD MORNING YAA- >w<\n");
+        printf("GoOd NiGhT ovO\n");
     }
 
     return 0;
