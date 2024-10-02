@@ -9,6 +9,6 @@ elif now <= 18:
 elif now <= 20:
     print("GoOd EvEnInG YAA- >:)")
 else:
-    print("GO TO SLEEP o^O")
+    print("GOOD EVENING. GO TO SLEEP o^O")
 
 print(now)

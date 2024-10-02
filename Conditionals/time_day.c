@@ -19,7 +19,7 @@ int main(void){
     }else if (hour <= 20){
         printf("GoOd EvEnInG YAA- >:)\n");
     }else{
-        printf("GO TO SLEEP o^O\n");
+        printf("GOOD EVENING. GO TO SLEEP o^O\n");
     }
 
     return 0;
