@@ -1,11 +1,10 @@
 #include <stdio.h>
 
-int grade;
 
 int main(void){
-    printf("What's your grade percent\n ");
-    scanf("%d", &grade);
-
+    int grade;
+    printf("What's your grade percent: ");
+    scanf("%d", grade);
     if (grade >= 90){
         printf("You have an A :D\n");
     }else if (grade >= 80){
